@@ -25,4 +25,4 @@ class CantBookVariablePricing(FeatureNotAvailableException):
 class CantBookFacility(FeatureNotAvailableException):
 
     def __init__(self):
-        super().__init__('Can\'t book the facility for given timings.')
+        super().__init__('Facility is already booked.')
